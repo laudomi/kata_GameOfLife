@@ -19,14 +19,17 @@ In each turn of the game, the world evolves from one generation to the next. The
 
 Neighbors are those cells horizontally, vertically, or diagonally adjacent to a cell.<br>
 
-There are four rules for deciding if a cell lives or dies:<br><br>
+There are four rules for deciding if a cell lives or dies:<br>
 
 **1. The Under-Population Rule**<br>
 Any living cell with fewer than 2 living neighbors dies<br>
+
 **2. The Survival Rule**<br>
 Any living cell with 2 or 3 living neighbors lives on<br>
+
 **3. The Overcrowding Rule**<br>
 Any living cell with more than 3 living neighbors dies<br>
+
 **4. The Birth Rule**<br>
 Any dead cell with exactly 3 living neighbors comes to life<br><br>
 
